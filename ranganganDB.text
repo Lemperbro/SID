@@ -1,0 +1,86 @@
+
+
+Dependency yang di pakai {
+    - froala-
+    - alphine js-
+    - jquery-
+    - slugabble-
+    - alert
+    - pagination-
+
+}
+
+User {
+    - id
+    - username
+    - email
+    - password
+    - phone
+    - role
+}
+
+Struktur-Organisasi{
+    - id
+    - nama
+    - image
+    - jabatan
+    - AwalJabat
+    - AkhirJabat
+}
+
+Program-Desa{
+    - id
+    - image
+    - slug
+    - Judul
+    - Deskripsi
+    - programKategori
+}
+
+ProgramKategori{
+    - id 
+    - kategori
+    - softDelete
+}
+
+Berita{
+    - id
+    - Judul
+    - slug
+    - image
+    - isi
+    - views
+    - BeritaKategori
+}
+
+BeritaKategori{
+    - id
+    - kategori
+    - softDelete
+}
+
+Umkm{
+    - id
+    - Judul
+    - slug
+    - image
+    - produk
+    - isi
+    - views
+}
+
+
+Gallery{
+    - id
+    - Caption
+    - slug
+    - image
+}
+
+Profile{
+    - id
+    - image
+    - isi
+}
+
+

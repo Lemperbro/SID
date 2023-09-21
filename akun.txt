@@ -1,0 +1,22 @@
+gmail {
+    email : desasistem24@gmail.com
+    pw : sistemdesa123
+}
+
+000webhost{
+    email : desasistem24@gmail.com
+    pw : Desa_sistem24
+}
+
+create new website {
+    name : kaligerman
+    pw : Desa_Kaligerman123
+}
+
+database{
+    database : id21200095_kaligerman
+    dbpassword : Desa_Kaligerman123
+    dbusername : id21200095_kaligerman
+    dbhost : localhost
+
+}

@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: Poppins, Helvetica, sans-serif;
+    }
+}
+
+ol {
+    list-style-type: decimal; /* or other list style type */
+}
+
+ul {
+    list-style-type: disc; /* or other list style type */
+}

@@ -1,0 +1,24 @@
+{
+    "image": [
+        {
+            "id": 0,
+            "image": "61478344787ce2f217717d319ea7a736743696570b5bf8031ad48df76408a6ac.jpeg"
+        },
+        {
+            "id": 1,
+            "image": "c6b9677101ffe2942b37d2138cfbed2147e02ef36d592fd8023271e5aced319a.jpeg"
+        },
+        {
+            "id": 2,
+            "image": "a16f2ad47192802aa5207d5c28d46d1d552a1fe229cae570baf383e31049e6a7.jpeg"
+        },
+        {
+            "id": 3,
+            "image": "82881642be29c53fcd6867c6900dbfe1f571f3d417ceb2e0ecddba2dc49afd1b.jpeg"
+        }
+    ],
+    "title": {
+        "title1": "Selamat Datang Di Desa Kaligerman",
+        "title2": "lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, reprehenderit. Sint facere vero, est, iure, fuga doloribus maxime at a placeat necessitatibus nemo et ducimus sequi similique asperiores eligendi! Fugit."
+    }
+}
