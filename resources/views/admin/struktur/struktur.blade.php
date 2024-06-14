@@ -34,13 +34,13 @@
                 <span class="my-auto text-gray-900 dark:text-white">Tambah Data</span>
             </a>
         </div>
-
+       
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-4">
 
             @foreach ($data as $item)
                 <div class=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <div>
-                        <img class="rounded-t-lg w-full h-52" src="{{ asset('FtStruktur/' . $item->image) }}"
+                        <img class="rounded-t-lg w-full h-60 object-cover" style="object-position: 50% 20%;" src="{{ asset('FtStruktur/' . $item->image) }}"
                             alt="" />
                     </div>
                     <div class="p-5">

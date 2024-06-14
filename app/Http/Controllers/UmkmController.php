@@ -32,16 +32,14 @@ class UmkmController extends Controller
     }
     public function redirect(Umkm $id)
     {
+
         $phoneNumber = $id->phone;
         $produk = explode("|", $id->produk);
-
         $text = 'Hai, Mau pesan apa?' . PHP_EOL;
         foreach ($produk as $produks) {
             $text .= '- ' . $produks . ',' . PHP_EOL;
         }
-
         $whatsappLink = 'https://api.whatsapp.com/send?phone=+62' . $phoneNumber . '&text=' . urlencode($text);
-
         return redirect()->away($whatsappLink);
     }
 

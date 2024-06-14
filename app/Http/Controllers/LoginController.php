@@ -24,11 +24,6 @@ class LoginController extends Controller
             'hitungUser' => $hitungUser
         ]);
     }
-    // public function login(LoginProsesRequest $request){
-    //     $validasi = $request->validated();
-    //     $data = $this->LoginRepository->login($validasi);
-    //     return $data;
-    // }
 
     public function login(LoginProsesRequest $request){
         $credentials = $request->validated();
